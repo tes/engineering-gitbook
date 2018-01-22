@@ -7,7 +7,7 @@ At Tes, we have a jenkins job, that builds the book and copies the output to S3.
 ## Step 1 - Get running locally
 
 ```
-git clone https://github/com/tes/engineering-gitbook
+git clone https://github.com/tes/engineering-gitbook
 cd engineering-gitbook
 npm install
 npm run setup
@@ -18,6 +18,7 @@ npm run dev
 
 In `/bin/publish.sh`, update with your own configuration:
 
+https://github.com/tes/engineering-gitbook/blob/master/bin/publish.sh#L10
 
 ```
 aws s3 sync --delete _book s3://your-s3-bucket/folder-name
