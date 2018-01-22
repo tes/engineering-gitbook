@@ -1,0 +1,24 @@
+{
+  "name": "engineering-gitbook",
+  "version": "1.0.0",
+  "description": "Engineering Gitbook Example",
+  "main": "index.js",
+  "scripts": {
+    "publish": "bin/publish.sh",
+    "setup": "bin/setup-dev.sh",
+    "dev": "gitbook serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tes/engineering-gitbook.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tes/engineering-gitbook/issues"
+  },
+  "homepage": "https://github.com/tes/engineering-gitbook",
+  "dependencies": {
+    "gitbook-cli": "^2.3.2"
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "plugins": ["algolia"],
+    "pluginsConfig": {
+        "algolia": {
+            "index": "tes-engineering",
+            "applicationID": "3IXCY2GRBL",
+            "publicKey": "7215c6e7fada206e79aa5ef683e7c9e3",
+            "freeAccount": "true"
+        }
+    }
+}
